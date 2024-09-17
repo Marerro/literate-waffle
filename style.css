@@ -6,7 +6,7 @@ body {
 header {
     display:block;
     text-align:center;
-    padding:50px;
+    padding:150px;
 }
 
 header h1 {
@@ -45,10 +45,10 @@ h3 {
 }
 
 .main__header {
-    width:80%;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    gap:20px;
 }
 
 .main__figure {
@@ -78,4 +78,25 @@ h3 {
 .main__header p {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
+}
+
+.main__image2 {
+    text-align:center;
+    background-color:rgb(4, 161, 4);
+    border-radius:7px;
+    padding:15px;
+}
+
+.main__image3 {
+    text-align:center;
+    background-color:rgb(255, 255, 255);
+    border-radius:7px;
+    padding:15px;
+}
+
+.main__figure1 {
+    background-color:#0066ff;
+    width:200px;
+    height:200px;
+    padding:45px;
 }
