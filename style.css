@@ -3,12 +3,13 @@ body {
     background-color:rgb(1, 43, 99)
 }
 
-main {
+header {
     display:block;
     text-align:center;
+    padding:50px;
 }
 
-main h1 {
+header h1 {
     color:#FFF;
     font-size:60px;
     text-align:center;
@@ -19,4 +20,26 @@ h3 {
     color:#FFF;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
+    padding-bottom:15px;
+}
+
+.header__button {
+    display:flex;
+    justify-content: center;
+}
+
+.button__actions {
+    width:200px;
+    height:40px;
+    text-align: center;
+    border-radius:12px;
+    margin:15px;
+    background-color:rgb(1, 43, 99);
+    border:1px solid rgb(5, 108, 243);
+    color:#FFF;
+}
+
+.button__actions:hover {
+    background-color: rgb(5, 108, 243);
+    cursor:pointer;
 }
