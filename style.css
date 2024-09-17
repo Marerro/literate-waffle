@@ -43,3 +43,39 @@ h3 {
     background-color: rgb(5, 108, 243);
     cursor:pointer;
 }
+
+.main__header {
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main__figure {
+    background-color:#FFF;
+    width:200px;
+    height:200px;
+    padding:45px;
+}
+
+.main__image1 {
+    text-align:center;
+    background-color:rgba(255, 0, 0, 0.295);
+    border-radius:7px;
+    padding:15px;
+}
+
+.main__header h4 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+.main__border {
+    border: 1px solid rgb(160, 9, 9);
+    width:30%;
+}
+
+.main__header p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
